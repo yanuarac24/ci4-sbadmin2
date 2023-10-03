@@ -1,0 +1,9 @@
+CRITICAL - 2022-12-30 03:19:14 --> Invalid file: pages/colors.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/colors.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/colors', [], true)
+ 3 APPPATH\Controllers\Utilities.php(9): view('pages/colors')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Utilities->colors()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Utilities))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
