@@ -38,8 +38,8 @@ $request = service('request');
         <div id="collapseTwo" class="collapse<?php if ($request->uri->getSegment(1) == 'components') echo ' show'; ?>" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">Custom Components:</h6>
-                <a class="collapse-item<?php if ($request->uri->getSegment(1) == 'components' && $request->uri->getSegment(2) == 'buttons') echo ' active'; ?>" href="<?= base_url('/components/buttons') ?>" href="buttons.html">Buttons</a>
-                <a class="collapse-item<?php if ($request->uri->getSegment(1) == 'components' && $request->uri->getSegment(2) == 'cards') echo ' active'; ?>" href="<?= base_url('/components/cards') ?>" href="cards.html">Cards</a>
+                <a class="collapse-item<?php if ($request->uri->getSegment(1) == 'components' && $request->uri->getSegment(2) == 'buttons') echo ' active'; ?>" href="<?= base_url('/components/buttons') ?>">Buttons</a>
+                <a class="collapse-item<?php if ($request->uri->getSegment(1) == 'components' && $request->uri->getSegment(2) == 'cards') echo ' active'; ?>" href="<?= base_url('/components/cards') ?>">Cards</a>
             </div>
         </div>
     </li>
